@@ -1,7 +1,174 @@
-.body{
-  background-color:red;
+*{
+  box-sizing:border-box;
 }
 
-.title{
-  color:#02ccba;
+h1, h2, h3{
+  font-weight:bold;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+}
+
+header{
+  background-color:rgba(0,0,0,0.5);
+  position:fixed;
+  top:0px;
+  width:100%;
+  height:50px;
+}
+
+header p{
+  display:inline-block;
+  font-size:20px;
+  height:40px;
+  color:white;
+  padding-top:15px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.top-wrapper{
+  background-image: url(top.jpg);
+  background-size:cover;
+  text-align:center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.top-wrapper h1{
+  font-size:80px;
+  color:white;
+  opacity:0.8;
+  margin-bottom:30px;
+}
+
+.top-wrapper p{
+  font-size:18px;
+  color:white;
+  opacity:0.8;
+  margin-bottom:10px;
+}
+
+.message{
+  text-align:center;
+  background-color:#006400;
+}
+
+.message h1{
+  display:inline-box;
+  font-size:50px;
+  color:white;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.comment-box{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.comment-box img{
+  width:100%;
+}
+
+.column{
+  display:flex;
+}
+
+.comment-message-box{
+  width:90%;
+}
+
+.column li{
+  width:50%;
+  display:inline-block;
+  text-align:center;
+  background-color:white;
+
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column h3{
+  font-size:50px;
+  display:block;
+  margin-bottom:10px;
+}
+
+.column p{
+  font-size:15px;
+  margin-bottom:5px;
+  display:block;
+}
+
+.pet{
+  padding-top:80px;
+  padding-bottom:130px;
+}
+
+.pet-row{
+  display:flex;
+}
+
+.pet-row li{
+  flex:auto;
+  text-align:center;
+}
+
+.pet-row img{
+  width:90%;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.pet h3{
+  font-size:30px;
+}
+
+.pet p{
+  margin-bottom:5px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nature{
+  padding-top:80px;
+  padding-bottom:130px;
+}
+
+.nature h3{
+  font-size:30px;
+}
+
+.nature p{
+  margin-bottom:5px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+footer{
+  background-color:#008000;
+  color:white;
+  padding-top:40px;
+  padding-bottom:30px;
+}
+
+.footer-list{
+  display:flex;
+  justify-content:space-between;
+}
+
+footer h2{
+  font-size:20px;
+}
+
+footer li{
+  margin-bottom:20px;
+  text-align:right;
 }
